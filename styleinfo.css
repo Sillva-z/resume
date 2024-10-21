@@ -1,0 +1,116 @@
+body{
+    background-image: url(image/star.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  height: 100vh;
+}
+
+header{
+    background-color: rgba(182,10,57,255);
+    text-align: center;
+   border: solid black 2px;
+    color: black;
+}
+.hh{
+    color: black;
+}
+div{
+    margin: 110px;
+ 
+    
+    
+    
+}
+ p, ul{
+color: aliceblue;
+font-size: 27px;
+
+}
+ h1{
+    color: rgba(182,10,57,255);
+    font-size: 40px;
+}
+.so{
+    margin-top: 120px;
+   
+
+}
+
+
+
+.about {
+    display: inline-block;
+    
+   
+
+  
+}
+
+
+.project{
+    
+    float: right;
+
+   
+   
+
+}
+
+.skills{
+    margin-top: 20px;
+}
+
+
+
+@media screen and (max-width: 992px ) {
+    .project{
+        float: none;
+     }
+
+}
+
+@media screen and (max-width: 375px ) {
+     P{
+        font-size: 22px;
+     }
+   .project{
+      float: none;
+   }
+ 
+    .about {
+        
+        display: inline-block;
+
+        width: 70%;
+        /* margin: 0; */
+        margin-left:20px;
+      
+    }
+    
+.project{
+    
+    width: 70%;
+
+   margin-left:20px;
+   
+
+}
+
+
+}
+
+@media print {
+    
+    body {
+      font-size: 12px;
+      color: black;
+    }
+    .no-print {
+      display: none; 
+    }
+    .print-only {
+      display: block; 
+    }
+  }
